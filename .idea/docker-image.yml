@@ -1,0 +1,19 @@
+---
+
+actions:
+  - action: "Push to https://github.com/MitzyMeow/Snyk"
+    type: "PUSH"
+    login: "avrina7@gmail.com"
+    password: "Dandy1905"
+    push_tags: false
+    git_auth_mode: "HTTP"
+    target_branch: ""
+    push_url: "https://github.com/MitzyMeow/Snyk"
+    comment: "$SNYK DEMO"
+    tag: "tagName"
+    deployment_excludes:
+      - "/tmp/"
+    use_custom_gitignore: true
+    without_force: false
+
+    ---

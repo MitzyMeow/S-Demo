@@ -9,4 +9,4 @@ jobs:
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       with:
-        image: 7d790eaba629
+        image: ubuntu

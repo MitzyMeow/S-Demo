@@ -7,7 +7,7 @@ jobs:
    steps:
      - uses: actions/checkout@v2
      - uses: snyk/actions/setup@master
-     - name: Snyk Demo Test
+     - name: Snyk Test
        run: snyk test --file=Dockerfile
        continue-on-error: true       
        env:

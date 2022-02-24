@@ -1,7 +1,7 @@
 
 
 # Pull base image (WV)
-FROM tomcat:8
+FROM tomcat:9.0.58-jre11-openjdk-slim
 # RUN apt-get install wget
 
 # Pull base image (NV)
